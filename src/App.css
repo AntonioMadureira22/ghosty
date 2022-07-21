@@ -1,5 +1,10 @@
 *{
   background-color: whitesmoke;
+  -ms-overflow-style: auto;
+}
+::-webkit-scrollbar{
+  display: none;
+  
 }
 .App {
   text-align: center;
@@ -16,11 +21,44 @@
   margin-right: auto;
 
 }
+@media screen and (max-width:1050px){
+  .App{
+    font-size:20px;
+    text-align: center;
+    margin-top: 20%;
+  }
+  .img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+}
+@media screen and (max-width:1050px) and (orientation:landscape){
+  .App{
+    margin-top: -3%;
+  }
+  .img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+}
 @media screen and (max-width: 575px) {
   .App {
     text-align: center;
     font-size: 60px;
     text-decoration: underline;
+
   }
   .img1{
     display: flex;
@@ -36,7 +74,16 @@
   .App{
     font-size: 10px;
     text-align: center;
-    margin-top: 50%;
+    margin-top: 20%;
+  }
+  .img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -44,6 +91,31 @@
   .App{
     font-size:20px;
     text-align: center;
-    margin-top: 40%;
+    margin-top: 20%;
+  }
+  .img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+}
+@media screen and (max-width:900px) and (orientation: landscape){
+  .App{
+    margin-top: -6%;
+  }
+  .img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  
   }
 }
