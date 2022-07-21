@@ -1,10 +1,13 @@
 
 import './App.css';
+import construct from "./assets/store.JPEG"
 
 function App() {
   return (
     <div className="App">
-      <h1>We are Building.</h1>
+      <div className='store'>
+      <img className='img1' src={construct}  alt='the store'/>
+      </div>
     </div>
   );
 }
